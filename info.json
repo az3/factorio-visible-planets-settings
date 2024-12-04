@@ -1,0 +1,18 @@
+{
+  "name": "visible-planets-settings",
+  "version": "1.0.0",
+  "title": "Visible Planets in Space Settings",
+  "author": "cagricelebi",
+  "contact": "https://github.com/az3/factorio-visible-planets-settings",
+  "homepage": "https://github.com/az3/factorio-visible-planets-settings",
+  "description": "Choose individual planet images from multiple HD planet mods to display via Visible Planets in Space.",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base >= 2.0.0",
+    "space-age >= 2.0.0",
+    "visible-planets >= 1.2.1",
+    "? hd_planets >= 2.0.6",
+    "? sharper_planets >= 1.0.2",
+    "? hd_planets_renders >= 1.0.0"
+  ]
+}
