@@ -5,7 +5,7 @@
   "author": "cagricelebi",
   "contact": "https://github.com/az3/factorio-visible-planets-settings",
   "homepage": "https://github.com/az3/factorio-visible-planets-settings",
-  "description": "Choose individual planet images from multiple HD planet mods to display via Visible Planets in Space.",
+  "description": "Choose individual planets from multiple HD image mods.",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.0",
