@@ -23,8 +23,12 @@ mod_picker_map = {
     [MOD_NAME_polite_alpha] = "polite_alpha's \"polite-alpha-planets\"",
 }
 
-picker_mod_map = {}
-
-for mod_name, picker in pairs(mod_picker_map) do
-    table.insert(picker_mod_map, { picker = mod_name })
-end
+-- FIXME invert key value map
+picker_mod_map = {
+    ["Default"] = MOD_NAME_DEFAULT,
+    ["HealdollEmily's \"Sharper Planets\""] = MOD_NAME_HealdollEmily,
+    ["OwnlyMe's \"HD planets\""] = MOD_NAME_OwnlyMe,
+    ["SovietSpartan's \"HD Planets Renders\""] = MOD_NAME_SovietSpartan,
+    ["Valerian's \"valerian-planets\""] = MOD_NAME_Valerian,
+    ["polite_alpha's \"polite-alpha-planets\""] = MOD_NAME_polite_alpha,
+}

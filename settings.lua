@@ -19,7 +19,7 @@ if mods[MOD_NAME_Valerian] then
 end
 
 -- FIXME Replace it with MOD_NAME_polite_alpha
-if mods[MOD_NAME_Valerian] then
+if mods[MOD_NAME_polite_alpha] then
     table.insert(mod_list, mod_picker_map[MOD_NAME_polite_alpha])
 end
 
