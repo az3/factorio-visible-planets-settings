@@ -14,14 +14,15 @@ if mods[MOD_NAME_SovietSpartan] then
     table.insert(mod_list, mod_picker_map[MOD_NAME_SovietSpartan])
 end
 
+if mods[MOD_NAME_0mega42] then
+    table.insert(mod_list, mod_picker_map[MOD_NAME_0mega42])
+end
+
+-- FIXME Replace it with MOD_NAME_Valerian
 if mods[MOD_NAME_Valerian] then
     table.insert(mod_list, mod_picker_map[MOD_NAME_Valerian])
 end
 
--- FIXME Replace it with MOD_NAME_polite_alpha
-if mods[MOD_NAME_polite_alpha] then
-    table.insert(mod_list, mod_picker_map[MOD_NAME_polite_alpha])
-end
 
 data:extend({
     -- START

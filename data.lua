@@ -53,15 +53,18 @@ function update_prototype(prototype, planet_name)
         prototype.starmap_icon = "__" .. MOD_NAME_SovietSpartan .. "__/graphics/" .. planet_name .. ".png"
         prototype.starmap_icon_size = 2048
     end
+    if mod_name == MOD_NAME_0mega42 then
+        prototype.starmap_icon = "__" .. MOD_NAME_0mega42 .. "__/graphics/" .. planet_name .. ".png"
+        prototype.starmap_icon_size = 2048
+    end
     if mod_name == MOD_NAME_Valerian then
         -- FIXME NOT YET RELEASED
         prototype.starmap_icon = "__" .. MOD_NAME_Valerian .. "__/graphics/" .. planet_name .. ".png"
-        prototype.starmap_icon_size = 2160
-    end
-    if mod_name == MOD_NAME_polite_alpha then
-        prototype.starmap_icon = "__" .. MOD_NAME_polite_alpha .. "__/graphics/" .. planet_name .. ".png"
-        -- FIXME NOT YET RELEASED
-        prototype.starmap_icon_size = 2048
+        if planet_name == "nauvis" or planet_name == "gleba" then
+            prototype.starmap_icon_size = 2160
+        else
+            prototype.starmap_icon_size = 2048
+        end
     end
     log("prototype.starmap_icon is chosen as: " .. prototype.starmap_icon)
 end
