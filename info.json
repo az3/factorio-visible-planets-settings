@@ -1,6 +1,6 @@
 {
   "name": "visible-planets-settings",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "title": "Visible Planets in Space Settings",
   "author": "cagricelebi",
   "contact": "https://github.com/az3/factorio-visible-planets-settings",
@@ -14,6 +14,7 @@
     "? hd_planets >= 2.0.6",
     "? sharper_planets >= 1.0.2",
     "? hd_planets_renders >= 1.0.0",
-    "? YAPR >= 1.0.2"
+    "? YAPR >= 1.0.2",
+    "? valerian-planets >= 1.0.0"
   ]
 }
