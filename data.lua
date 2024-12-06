@@ -37,7 +37,14 @@ function update_prototype(prototype, planet_name)
         return
     end
     if mod_name == MOD_NAME_DEFAULT then
-        -- NOOP
+        prototype.starmap_icon_size = 512
+        if planet_name == "nauvis" then
+            prototype.starmap_icon = "__base__/graphics/icons/starmap-planet-nauvis.png"
+        elseif planet_name == "shattered-planet" then
+            prototype.starmap_icon = "__space-age__/graphics/icons/starmap-shattered-planet.png"
+        else
+            prototype.starmap_icon = "__space-age__/graphics/icons/starmap-planet-" .. planet_name .. ".png"
+        end
     end
     if mod_name == MOD_NAME_HealdollEmily then
         prototype.starmap_icon = "__" .. MOD_NAME_HealdollEmily .. "__/graphics/" .. planet_name .. ".png"

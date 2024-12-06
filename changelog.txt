@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2024-12-06
+  Info:
+    - Default option now rolls back to base game file assets.
+    - Construct setting menu dropdown options with respect to mod's included assets.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 2024-12-06
   Info:

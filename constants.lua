@@ -1,11 +1,6 @@
-planets = {
-    "nauvis",
-    "fulgora",
-    "gleba",
-    "vulcanus",
-    "aquilo",
-    "shattered-planet",
-}
+-- maybe rename it to first6 ?
+planets = { "nauvis", "fulgora", "gleba", "vulcanus", "aquilo", "shattered-planet", }
+local first5 = { "nauvis", "fulgora", "gleba", "vulcanus", "aquilo" }
 
 MOD_NAME_DEFAULT = "default"
 MOD_NAME_HealdollEmily = "sharper_planets"
@@ -32,3 +27,13 @@ function reverse(kv_table)
 end
 
 picker_mod_map = reverse(mod_picker_map)
+
+mod_planets_map = {
+    [MOD_NAME_DEFAULT] = planets,
+    [MOD_NAME_HealdollEmily] = first5,
+    [MOD_NAME_OwnlyMe] = planets,
+    [MOD_NAME_SovietSpartan] = planets,
+    [MOD_NAME_0mega42] = first5,
+    [MOD_NAME_Valerian] = first5,
+}
+
