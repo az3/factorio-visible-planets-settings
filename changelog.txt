@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2024-12-11
+  Info:
+    - Renamed data.lua to data-updates.lua to correctly overwrite planets. This feels wrong, please inform me if there is a better way.
+    - Reorder settings menu with respect to Factoriopedia order.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.3
 Date: 2024-12-06
   Info:

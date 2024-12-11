@@ -1,9 +1,9 @@
 require("constants")
 
 local nauvis_picker = settings.startup["vps-nauvis-picker"].value
-local fulgora_picker = settings.startup["vps-fulgora-picker"].value
-local gleba_picker = settings.startup["vps-gleba-picker"].value
 local vulcanus_picker = settings.startup["vps-vulcanus-picker"].value
+local gleba_picker = settings.startup["vps-gleba-picker"].value
+local fulgora_picker = settings.startup["vps-fulgora-picker"].value
 local aquilo_picker = settings.startup["vps-aquilo-picker"].value
 local shattered_planet_picker = settings.startup["vps-shattered-planet-picker"].value
 
@@ -13,14 +13,14 @@ function get_mod_name(planet_name)
     if planet_name == "nauvis" and nauvis_picker ~= nil then
         return picker_mod_map[nauvis_picker]
     end
-    if planet_name == "fulgora" and fulgora_picker ~= nil then
-        return picker_mod_map[fulgora_picker]
+    if planet_name == "vulcanus" and vulcanus_picker ~= nil then
+        return picker_mod_map[vulcanus_picker]
     end
     if planet_name == "gleba" and gleba_picker ~= nil then
         return picker_mod_map[gleba_picker]
     end
-    if planet_name == "vulcanus" and vulcanus_picker ~= nil then
-        return picker_mod_map[vulcanus_picker]
+    if planet_name == "fulgora" and fulgora_picker ~= nil then
+        return picker_mod_map[fulgora_picker]
     end
     if planet_name == "aquilo" and aquilo_picker ~= nil then
         return picker_mod_map[aquilo_picker]

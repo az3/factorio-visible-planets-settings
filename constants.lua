@@ -1,6 +1,6 @@
 -- maybe rename it to first6 ?
-planets = { "nauvis", "fulgora", "gleba", "vulcanus", "aquilo", "shattered-planet", }
-local first5 = { "nauvis", "fulgora", "gleba", "vulcanus", "aquilo" }
+planets = { "nauvis", "vulcanus", "gleba", "fulgora", "aquilo", "shattered-planet", }
+local first5 = { "nauvis", "vulcanus", "gleba", "fulgora", "aquilo" }
 
 MOD_NAME_DEFAULT = "default"
 MOD_NAME_HealdollEmily = "sharper_planets"
@@ -36,4 +36,3 @@ mod_planets_map = {
     [MOD_NAME_0mega42] = first5,
     [MOD_NAME_Valerian] = first5,
 }
-

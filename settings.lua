@@ -45,10 +45,10 @@ data:extend({
     },
     {
         type = "string-setting",
-        name = "vps-fulgora-picker",
+        name = "vps-vulcanus-picker",
         setting_type = "startup",
         default_value = mod_picker_map[MOD_NAME_DEFAULT],
-        allowed_values = mod_list["fulgora"],
+        allowed_values = mod_list["vulcanus"],
         order = "a2",
     },
     {
@@ -61,10 +61,10 @@ data:extend({
     },
     {
         type = "string-setting",
-        name = "vps-vulcanus-picker",
+        name = "vps-fulgora-picker",
         setting_type = "startup",
         default_value = mod_picker_map[MOD_NAME_DEFAULT],
-        allowed_values = mod_list["vulcanus"],
+        allowed_values = mod_list["fulgora"],
         order = "a4",
     },
     {
