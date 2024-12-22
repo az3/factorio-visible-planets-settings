@@ -15,6 +15,15 @@ function fill_dropdowns(mod_name)
     end
 end
 
+function iterateAll()
+    for mod_name, _ in ipairs(mod_picker_map) do
+        if mods[mod_name] then
+            fill_dropdowns(mod_name)
+        end
+    end
+end
+
+-- iterateAll()
 fill_dropdowns(MOD_NAME_DEFAULT)
 
 if mods[MOD_NAME_HealdollEmily] then
@@ -31,6 +40,9 @@ if mods[MOD_NAME_0mega42] then
 end
 if mods[MOD_NAME_Valerian] then
     fill_dropdowns(MOD_NAME_Valerian)
+end
+if mods[MOD_NAME_grog2] then
+    fill_dropdowns(MOD_NAME_grog2)
 end
 
 data:extend({

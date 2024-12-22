@@ -80,6 +80,10 @@ function update_prototype(prototype, planet_name)
         prototype.starmap_icon = "__" .. MOD_NAME_Valerian .. "__/graphics/" .. planet_name .. ".png"
         prototype.starmap_icon_size = 2048
     end
+    if mod_name == MOD_NAME_grog2 then
+        prototype.starmap_icon = "__" .. MOD_NAME_grog2 .. "__/graphics/" .. planet_name .. ".png"
+        prototype.starmap_icon_size = 3840
+    end
     log("prototype.starmap_icon is chosen as: '" .. prototype.starmap_icon .. "' [" .. prototype.starmap_icon_size .. "p]")
 end
 
