@@ -26,6 +26,13 @@ end
 -- iterateAll()
 fill_dropdowns(MOD_NAME_DEFAULT)
 
+if mods[MOD_NAME_maraxsis] then
+    fill_dropdowns(MOD_NAME_maraxsis)
+end
+if mods[MOD_NAME_tenebris] then
+    fill_dropdowns(MOD_NAME_tenebris)
+end
+
 if mods[MOD_NAME_HealdollEmily] then
     fill_dropdowns(MOD_NAME_HealdollEmily)
 end
@@ -97,3 +104,29 @@ data:extend({
     },
     -- END
 })
+
+if mods["maraxsis"] then
+    data:extend({
+        {
+            type = "string-setting",
+            name = "vps-maraxsis-picker",
+            setting_type = "startup",
+            default_value = mod_picker_map[MOD_NAME_maraxsis],
+            allowed_values = mod_list["maraxsis"],
+            order = "a7",
+        },
+    })
+end
+
+if mods["tenebris"] then
+    data:extend({
+        {
+            type = "string-setting",
+            name = "vps-tenebris-picker",
+            setting_type = "startup",
+            default_value = mod_picker_map[MOD_NAME_tenebris],
+            allowed_values = mod_list["tenebris"],
+            order = "a8",
+        },
+    })
+end
